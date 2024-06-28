@@ -1,0 +1,67 @@
+/* Estilos específicos para el formulario */
+
+
+/* Estilo para el título del formulario */
+#formularioTratamiento h2 {
+    text-align: center;
+    color: #007bff; /* Azul */
+    margin-bottom: 20px;
+}
+
+/* Estilo para las etiquetas */
+#formularioTratamiento label {
+    color: #333; /* Color de texto gris oscuro */
+}
+
+/* Estilo para los select */
+#formularioTratamiento select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para los checkboxes */
+#formularioTratamiento input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Estilo para el campo de cantidad */
+#formularioTratamiento input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para los botones */
+#formularioTratamiento input[type="submit"],
+#formularioTratamiento .button {
+    display: inline-block;
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilo para el botón "Guardar" */
+#formularioTratamiento input[type="submit"] {
+    background-color: #28a745; /* Verde */
+}
+
+/* Estilo para el botón "Cancelar" */
+#formularioTratamiento .button {
+    background-color: #28a745; /* Rojo */
+}
+
+/* Estilo para los botones en hover */
+#formularioTratamiento input[type="submit"]:hover,
+#formularioTratamiento .button:hover {
+    opacity: 0.8;
+}

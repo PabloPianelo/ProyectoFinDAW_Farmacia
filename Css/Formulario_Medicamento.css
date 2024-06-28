@@ -1,0 +1,149 @@
+html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    background-image:   url(../img/fondo2.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    margin: 0;
+    padding: 0;
+}
+/* Estilo para el título */
+h1 {
+    text-align: center;
+    color: #000000; /* Azul */
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+/* Estilo para la etiqueta */
+.label {
+    color: #689689; /* Azul */
+    margin-right: 5px; /* Espacio entre el texto y los dos puntos */
+}
+
+
+#formularioTratamiento {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    
+
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente más moderna */
+}
+
+#formularioTratamiento h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#formularioTratamiento label {
+    color: #555;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#formularioTratamiento select,
+#formularioTratamiento input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente más moderna */
+}
+
+#formularioTratamiento input[type="checkbox"] {
+    margin-right: 10px;
+    appearance: none; /* Eliminar el estilo predeterminado del checkbox */
+    width: 20px; /* Tamaño personalizado */
+    height: 20px; /* Tamaño personalizado */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde gris */
+    background-color: #f9f9f9; /* Fondo blanco */
+    cursor: pointer; /* Cambiar el cursor al puntero */
+}
+
+#formularioTratamiento input[type="checkbox"]:checked {
+    background-color: #62d727; /* Cambiar el fondo al verde cuando está marcado */
+}
+
+
+
+#formularioTratamiento .button-wrapper {
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    margin: 50px auto; /* Para centrar el contenedor y aumentar el espacio en la parte superior */
+}
+
+#formularioTratamiento input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Fuente más moderna */
+    appearance: none; /* Eliminar estilos nativos del navegador */
+}
+
+
+
+.button_css {
+    appearance: none;
+    background-color: transparent;
+    border: 0.125em solid #B2E6D4;
+    border-radius: 0.9375em;
+    margin-left: 1em;
+    margin-right: 10px;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 1.75em;
+    min-width: 0;
+    outline: none;
+    padding: 0.5em 2.3em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+    
+   }
+   
+   .button_css:disabled {
+    pointer-events: none;
+   }
+   
+   .button_css:hover {
+    color: #fff;
+    background-color: #B2E6D4;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+   }
+   
+   .button_css:active {
+    box-shadow: none;
+    transform: translateY(0);
+   }
