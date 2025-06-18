@@ -303,7 +303,10 @@ Este proyecto es de uso educativo y está disponible bajo los términos establec
 
 ## Contacto y Soporte
 
-Para soporte técnico o consultas sobre el proyecto, contactar al desarrollador o revisar la documentación del curso.
+- 📧 **Email:** [pablopianeloxd@gmail.com]
+- 🌐 **GitHub:** [[tu-usuario-github](https://github.com/PabloPianelo)]
+- 💼 **LinkedIn:** [[tu-perfil-linkedin](https://www.linkedin.com/in/pablopianeloalonso/)]
+
 
 ---
 
