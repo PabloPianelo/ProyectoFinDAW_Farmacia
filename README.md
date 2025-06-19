@@ -301,7 +301,7 @@ error_reporting(E_ALL);
 
 Este proyecto es de uso educativo y está disponible bajo los términos establecidos por la institución educativa.
 
-## Contacto y Soporte
+## Contacto
 
 - 📧 **Email:** [pablopianeloxd@gmail.com]
 - 🌐 **GitHub:** [[tu-usuario-github](https://github.com/PabloPianelo)]
